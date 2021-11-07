@@ -1,0 +1,51 @@
+--- Uruchomienie aplikacji ---
+
+2021-11-05 14:11:21.696 18250-18250/com.example.quiz D/MainActivity: Wywołana została metoda cyklu życia: onCreate
+2021-11-05 14:11:21.757 18250-18250/com.example.quiz D/MainActivity: Wywołana została metoda cyklu życia: onStart
+2021-11-05 14:11:21.758 18250-18250/com.example.quiz D/MainActivity: Wywołana została metoda cyklu życia: onResume
+
+--- Obrócenie ekranu ---
+
+2021-11-05 14:13:47.410 18250-18250/com.example.quiz D/MainActivity: Wywołana została metoda cyklu życia: onPause
+2021-11-05 14:13:47.411 18250-18250/com.example.quiz D/MainActivity: Wywołana została metoda cyklu życia: onStop
+2021-11-05 14:13:47.412 18250-18250/com.example.quiz D/MainActivity: Wywołana została metoda cyklu życia: onDestroy
+2021-11-05 14:13:47.441 18250-18250/com.example.quiz D/MainActivity: Wywołana została metoda cyklu życia: onCreate
+2021-11-05 14:13:47.508 18250-18250/com.example.quiz D/MainActivity: Wywołana została metoda cyklu życia: onStart
+2021-11-05 14:13:47.510 18250-18250/com.example.quiz D/MainActivity: Wywołana została metoda cyklu życia: onResume
+
+<<< Po obróceniu ekranu dochodzi do całkowitego usunięcia aktywności a następnie do ponownego uruchomienia aktywności co powoduje reset pytań >>>
+
+--- Naciśnięcie guziku cofnij ---
+
+2021-11-05 14:14:46.034 18250-18250/com.example.quiz D/MainActivity: Wywołana została metoda cyklu życia: onPause
+2021-11-05 14:14:46.333 18250-18250/com.example.quiz D/MainActivity: Wywołana została metoda cyklu życia: onStop
+2021-11-05 14:14:46.337 18250-18250/com.example.quiz D/MainActivity: Wywołana została metoda cyklu życia: onDestroy
+
+--- Powrót do aplikacji ---
+
+2021-11-05 14:15:09.116 18250-18250/com.example.quiz D/MainActivity: Wywołana została metoda cyklu życia: onCreate
+2021-11-05 14:15:09.151 18250-18250/com.example.quiz D/MainActivity: Wywołana została metoda cyklu życia: onStart
+2021-11-05 14:15:09.153 18250-18250/com.example.quiz D/MainActivity: Wywołana została metoda cyklu życia: onResume
+
+--- Wciśnięcie przycisku Home ---
+
+2021-11-05 14:16:54.235 18250-18250/com.example.quiz D/MainActivity: Wywołana została metoda cyklu życia: onPause
+2021-11-05 14:16:54.470 18250-18250/com.example.quiz D/MainActivity: Wywołana została metoda cyklu życia: onStop
+
+--- Powrót z menu ostatnio używanych aplikacji ---
+
+2021-11-05 14:17:37.185 18250-18250/com.example.quiz D/MainActivity: Wywołana została metoda cyklu życia: onStart
+2021-11-05 14:17:37.186 18250-18250/com.example.quiz D/MainActivity: Wywołana została metoda cyklu życia: onResume
+
+<<< Po dodaniu zapisywania stanu >>>
+--- Obrócenie ekranu ---
+
+2021-11-05 14:30:34.607 20272-20272/com.example.quiz D/MainActivity: Wywołana została metoda cyklu życia: onPause
+2021-11-05 14:30:34.608 20272-20272/com.example.quiz D/MainActivity: Wywołana została metoda cyklu życia: onStop
+2021-11-05 14:30:34.609 20272-20272/com.example.quiz D/MainActivity: Wywołana została metoda: onSaveInstanceState
+2021-11-05 14:30:34.610 20272-20272/com.example.quiz D/MainActivity: Wywołana została metoda cyklu życia: onDestroy
+2021-11-05 14:30:34.632 20272-20272/com.example.quiz D/MainActivity: Wywołana została metoda cyklu życia: onCreate
+2021-11-05 14:30:34.674 20272-20272/com.example.quiz D/MainActivity: Wywołana została metoda cyklu życia: onStart
+2021-11-05 14:30:34.675 20272-20272/com.example.quiz D/MainActivity: Wywołana została metoda cyklu życia: onResume
+
+<<< Po stworzeniu PromptActivity pojawił się w AndroidManifest.xml nowy wpis dotyczący tej aktywności >>>
