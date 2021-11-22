@@ -14,6 +14,12 @@ public class Task {
         date = new Date();
     }
 
+    public Task(String _name, Boolean _done) {
+        this();
+        name = _name;
+        done = _done;
+    }
+
     public UUID getID() {
         return id;
     }
