@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_margin="@dimen/list_item_task_margin">
+
+    <ImageView
+        android:id="@+id/task_item_icon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/list_item_task_icon_marginRight"
+        app:srcCompat="@drawable/ic_check_box_negative"
+        tools:srcCompat="@drawable/ic_check_box_negative" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/task_item_name"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            tools:text="name"
+            style="@style/TextFieldStyle"/>
+
+        <TextView
+            android:id="@+id/task_item_date"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            tools:text="date"
+            style="@style/TextFieldStyle"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,23 @@
+package com.example.todoapp;
+
+import androidx.fragment.app.Fragment;
+
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.View;
+
+import java.util.UUID;
+
+public class MainActivity extends SingleFragmentActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+    }
+
+    @Override
+    protected Fragment createFragment() {
+        UUID taskId = (UUID) getIntent().getSerializableExtra(TaskListFragment.KEY_EXTRA_TASK_ID);
+        return TaskFragment.newInstance(taskId);
+    }
+}
