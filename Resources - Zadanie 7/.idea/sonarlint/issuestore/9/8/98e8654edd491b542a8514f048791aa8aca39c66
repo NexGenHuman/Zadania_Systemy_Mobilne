@@ -1,0 +1,15 @@
+
+—
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(â”Îà
+t
+java:S1450"YRemove the "dateButton" field and declare it as a local variable in the relevant methods.(ˆŸªùùÿÿÿÿ
+v
+java:S1450"[Remove the "doneCheckBox" field and declare it as a local variable in the relevant methods.(§¨âŸıÿÿÿÿ
+s
+java:S1450"XRemove the "nameField" field and declare it as a local variable in the relevant methods.(âê¸şÿÿÿÿ
+—
+java:S1186="€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(«û³±
+—
+java:S1186G"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(±¾ê
+G
+java:S1602R",Remove useless curly braces around statement(ìÑÔÿÿÿÿÿ

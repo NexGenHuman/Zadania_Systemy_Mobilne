@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SensorApp</string>
+    <string name="show_subtitle">Show subtitles</string>
+    <string name="hide_subtitle">Hide subtitles</string>
+    <string name="subtitle_format">%d sensors</string>
+    <string name="gravity_sensor">Gravity sensor</string>
+    <string name="light_sensor">Light sensor</string>
+    <string name="missing_sensor">Missing sensor</string>
+</resources>
